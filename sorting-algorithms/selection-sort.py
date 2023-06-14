@@ -7,7 +7,7 @@ def selection_sort(unsorted_list):
 
     no_of_items_in_list = len(unsorted_list)
     for step in range(no_of_items_in_list):
-        print(f'\n STEP:{step}')
+        print(f'\nSTEP:{step}')
         min_index = step
         for index in range(step+1, no_of_items_in_list):
             if unsorted_list[index] < unsorted_list[min_index]:
