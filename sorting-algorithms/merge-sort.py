@@ -20,6 +20,7 @@ def merge_sort(unsorted_list):
                 unsorted_list[k] = right[j]
                 j += 1
             k += 1
+
         while i < len(left):
             unsorted_list[k] = left[i]
             i += 1
